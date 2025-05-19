@@ -7,7 +7,7 @@ function Simulation(generator,numCustomers, interArrivalTimes, interArrivalProbs
 
     elseif generator == 2
         rnInterArrivals = round(UD(numCustomers));
-        rnServiceTypes = round(LCG(numCustomers));
+        rnServiceTypes = round(UD(numCustomers));
 
     end
 
