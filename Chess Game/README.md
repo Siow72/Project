@@ -6,18 +6,7 @@ A Java GUI-based implementation of **Kwazam Chess**, a strategic two-player game
 
 ---
 
-## 👥 Team Information
-
-**Team Name:** [Insert Team Name]  
-**Team Leader:** [Name], [Phone Number], [Email]  
-**Team Members:**
-- [Name], [Phone Number], [Email]  
-- [Name], [Phone Number], [Email]  
-- [Name], [Phone Number], [Email]  
-
----
-
-## ♟️ Game Description
+##  Game Description
 
 Kwazam Chess is played on a **5×8 board** with the following custom pieces:
 
@@ -33,7 +22,7 @@ After every 2 full turns (1 red + 1 blue move), all **Tor ↔ Xor** pieces trans
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
 - Java GUI with user-friendly interface
 - Fully functioning 2-player Kwazam Chess gameplay
@@ -41,23 +30,16 @@ After every 2 full turns (1 red + 1 blue move), all **Tor ↔ Xor** pieces trans
 - Turn indicator with **screen flipping**
 - Save and load game to/from **human-readable `.txt` files**
 - Responsive GUI with **window resizing support**
-- Follows **MVC pattern** and includes **additional design patterns** (e.g., Singleton, Strategy)
+- Follows **MVC pattern** and includes **additional design patterns** 
 
 ---
 
-## 🧠 Design Patterns Used
+##  Design Patterns Used
 
 - **MVC Pattern**: Separation of Model (game logic), View (GUI), and Controller (input handling)
-- **Singleton Pattern**: For centralized state or configuration management
-- **Template Method Pattern**: For defining piece movement behavior with variation
-- **Strategy Pattern** (if applicable): For movement or transformation logic abstraction
+- **Factory Pattern**: For centralized state or configuration management
 
 ---
 
-## 🛠️ Compile & Run Instructions
-
-> **Note**: This project was developed using Java SE 17 and tested on both Windows and Linux.
-
-### Compile:
-```bash
-javac -d bin src/**/*.java
+##  Compile & Run Instructions
+- ** run with CHessMain.Java
