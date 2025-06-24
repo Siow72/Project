@@ -1,7 +1,5 @@
 # Car Wash Queue Simulator
 
-### TMA1301 – Coding Assignment (Trimester 2410)
-
 This project simulates a **car wash center** with **three wash bays** and a single queue system. Customers (cars) arrive randomly, each requiring a different type of service. The simulation uses user-selected random number generators to determine inter-arrival times, service types, and wash durations. Results are printed with detailed timing logs and statistical evaluations.
 
 ---
