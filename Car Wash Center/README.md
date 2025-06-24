@@ -48,13 +48,3 @@ This project simulates a **car wash center** with **three wash bays** and a sing
 - Probability a car had to wait
 
 ---
-
-## ▶ How to Run
-
-### Requirements:
-- **FreeMat**, **MATLAB**, or any MATLAB-compatible environment
-
-### Steps:
-1. Open your environment
-2. Set the working directory to this folder
-3. Run
