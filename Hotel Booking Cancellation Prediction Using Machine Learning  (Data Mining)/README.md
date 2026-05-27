@@ -47,32 +47,16 @@ The stronger models are further tuned using randomized search.
 
 ## Dataset
 
-This project expects a dataset named:
+This project included a dataset named:
 
 ```text
 hotel_bookings.csv
+or downloaded via :
+https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data
 ```
-
-Place the dataset inside the `data/` folder, or update the notebook path if the file is stored elsewhere.
-
-> Note: The dataset is not included in this repository if it is too large, private, or has licensing restrictions.
 
 ## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/hotel-booking-cancellation-prediction.git
-cd hotel-booking-cancellation-prediction
-```
-
-2. Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the notebook:
+Open the notebook:
 
 ```bash
 jupyter notebook notebooks/hotel_booking_cancellation_prediction.ipynb
