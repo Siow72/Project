@@ -1,77 +1,153 @@
 # Hotel Booking Cancellation Prediction using Machine Learning
 
-This project predicts whether a hotel booking is likely to be cancelled using machine learning techniques. The notebook covers data exploration, preprocessing, feature engineering, class imbalance handling, model training, hyperparameter tuning, and final prediction logic.
+A machine learning-based hotel booking cancellation prediction system with an interactive Streamlit dashboard for business intelligence and cancellation risk analysis.
+
+---
 
 ## Project Overview
 
-Hotel booking cancellations can affect hotel revenue, room planning, and customer management. This project uses historical hotel booking data to build a classification model that predicts booking cancellation status.
+This project predicts whether a hotel booking is likely to be cancelled using machine learning techniques. The system analyzes booking-related features such as lead time, ADR (Average Daily Rate), special requests, room types, market segment, and parking requirements to estimate cancellation probability.
+
+The project also includes an interactive Streamlit dashboard for:
+- Business analytics
+- Cancellation risk prediction
+- Revenue management insights
+- Operational decision support
+
+---
 
 ## Features
 
-- Data loading and initial exploration
-- Missing value handling
-- Duplicate removal
-- Outlier detection and removal
+### Machine Learning Pipeline
+- Data preprocessing and cleaning
 - Feature engineering
+- Missing value handling
+- Outlier detection
 - Categorical encoding
 - Feature scaling
 - Class imbalance handling using SMOTENC
-- Baseline model comparison
+- Model comparison and evaluation
 - Hyperparameter tuning
-- Final model evaluation
-- Feature importance analysis
-- Simple user-input prediction flow
 
-## Machine Learning Models Used
+### Interactive Dashboard
+- KPI visualization
+- Cancellation analytics
+- Business intelligence graphs
+- Real-time cancellation prediction
+- Revenue management recommendations
 
-The notebook compares several classification models, including:
+### Prediction Outputs
+The system classifies bookings into:
+- Low Risk
+- Moderate Risk
+- High Risk
 
-- Logistic Regression
-- Linear Support Vector Classifier
-- Random Forest Classifier
-- HistGradientBoosting Classifier
+and provides recommended operational actions for hotel management.
 
-The stronger models are further tuned using randomized search.
+---
 
-## Tech Stack
+## Technologies Used
 
 - Python
-- Jupyter Notebook
-- pandas
+- Streamlit
+- Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
 - Imbalanced-learn
-- SciPy
+- Joblib
+
+---
+
+## Machine Learning Models
+
+The project evaluates multiple classification models including:
+
+- Logistic Regression
+- Linear Support Vector Classifier (LinearSVC)
+- Random Forest Classifier
+- HistGradientBoosting Classifier
+
+---
 
 ## Dataset
 
-This project included a dataset named:
+This project uses the **Hotel Booking Demand** dataset.
 
+Dataset file:
 ```text
 hotel_bookings.csv
-or downloaded via :
+```
+
+Dataset source:  
 https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data
-```
 
-## How to Run
-Open the notebook:
+After downloading, place the dataset inside the project folder.
 
-```bash
-jupyter notebook notebooks/hotel_booking_cancellation_prediction.ipynb
-```
+---
 
-4. Add the dataset file `hotel_bookings.csv` and run the notebook cells from top to bottom.
-
-## Results
-
-The notebook evaluates models using metrics such as:
+## Project Structure
 
 ```text
-Best Model: HistGradientBoosting Classifier
-Accuracy: 0.84
-AUC: 0.90
-Recall: 0.68
-F1-score: 0.70
+hotel-booking-cancellation-prediction/
+│
+├── application.py
+├── application_bundle.pkl
+├── Code.ipynb
+├── hotel_bookings.csv
+├── README.md
+└── screenshots/
 ```
+
+---
+
+## Dashboard Preview
+
+Add screenshots of your dashboard inside the `screenshots/` folder.
+
+Suggested screenshots:
+- KPI dashboard
+- Prediction result page
+- Business intelligence graphs
+
+---
+
+## How to Run
+
+### Run the Streamlit application
+
+```bash
+streamlit run application.py
+```
+
+---
+
+## Prediction Features
+
+The prediction system uses:
+- Lead Time
+- ADR (Average Daily Rate)
+- Market Segment
+- Room Types
+- Special Requests
+- Parking Requirements
+- Arrival Week Information
+
+to estimate booking cancellation probability.
+
+---
+
+## Business Intelligence Insights
+
+The dashboard provides:
+- Cancellation rate analysis
+- Lead time vs ADR analysis
+- Guest engagement analysis
+- Revenue management recommendations
+
+---
+
+## License
+
+This project is for educational and academic purposes.
