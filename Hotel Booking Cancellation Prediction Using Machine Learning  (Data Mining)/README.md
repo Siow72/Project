@@ -95,20 +95,8 @@ Example:
 
 ```text
 Best Model: HistGradientBoosting Classifier
-Accuracy: Add your score
-AUC: Add your score
-Recall: Add your score
-F1-score: Add your score
+Accuracy: 0.84
+AUC: 0.90
+Recall: 0.68
+F1-score: 0.70
 ```
-
-## Future Improvements
-
-- Save the final trained model using `joblib` or `pickle`
-- Build a Streamlit or Flask web app for real-time prediction
-- Add more visualizations and screenshots
-- Improve feature selection and model explainability
-- Deploy the project online
-
-## Author
-
-Rick Lopez
