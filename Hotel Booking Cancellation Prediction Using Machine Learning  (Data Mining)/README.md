@@ -68,15 +68,6 @@ jupyter notebook notebooks/hotel_booking_cancellation_prediction.ipynb
 
 The notebook evaluates models using metrics such as:
 
-- Accuracy
-- AUC
-- Recall
-- F1-score
-
-Update this section with your final model performance after running the notebook.
-
-Example:
-
 ```text
 Best Model: HistGradientBoosting Classifier
 Accuracy: 0.84
