@@ -1,0 +1,136 @@
+# Hotel Booking Cancellation Prediction using Machine Learning
+
+This project predicts whether a hotel booking is likely to be cancelled using machine learning techniques. The notebook covers data exploration, preprocessing, feature engineering, class imbalance handling, model training, hyperparameter tuning, and final prediction logic.
+
+## Project Overview
+
+Hotel booking cancellations can affect hotel revenue, room planning, and customer management. This project uses historical hotel booking data to build a classification model that predicts booking cancellation status.
+
+## Features
+
+- Data loading and initial exploration
+- Missing value handling
+- Duplicate removal
+- Outlier detection and removal
+- Feature engineering
+- Categorical encoding
+- Feature scaling
+- Class imbalance handling using SMOTENC
+- Baseline model comparison
+- Hyperparameter tuning
+- Final model evaluation
+- Feature importance analysis
+- Simple user-input prediction flow
+
+## Machine Learning Models Used
+
+The notebook compares several classification models, including:
+
+- Logistic Regression
+- Linear Support Vector Classifier
+- Random Forest Classifier
+- HistGradientBoosting Classifier
+
+The stronger models are further tuned using randomized search.
+
+## Tech Stack
+
+- Python
+- Jupyter Notebook
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn
+- SciPy
+
+## Project Structure
+
+```text
+hotel-booking-cancellation-prediction/
+│
+├── notebooks/
+│   └── hotel_booking_cancellation_prediction.ipynb
+│
+├── data/
+│   └── hotel_bookings.csv              # Add dataset here
+│
+├── models/
+│   └── .gitkeep
+│
+├── screenshots/
+│   └── .gitkeep
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+## Dataset
+
+This project expects a dataset named:
+
+```text
+hotel_bookings.csv
+```
+
+Place the dataset inside the `data/` folder, or update the notebook path if the file is stored elsewhere.
+
+> Note: The dataset is not included in this repository if it is too large, private, or has licensing restrictions.
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/hotel-booking-cancellation-prediction.git
+cd hotel-booking-cancellation-prediction
+```
+
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the notebook:
+
+```bash
+jupyter notebook notebooks/hotel_booking_cancellation_prediction.ipynb
+```
+
+4. Add the dataset file `hotel_bookings.csv` and run the notebook cells from top to bottom.
+
+## Results
+
+The notebook evaluates models using metrics such as:
+
+- Accuracy
+- AUC
+- Recall
+- F1-score
+
+Update this section with your final model performance after running the notebook.
+
+Example:
+
+```text
+Best Model: HistGradientBoosting Classifier
+Accuracy: Add your score
+AUC: Add your score
+Recall: Add your score
+F1-score: Add your score
+```
+
+## Future Improvements
+
+- Save the final trained model using `joblib` or `pickle`
+- Build a Streamlit or Flask web app for real-time prediction
+- Add more visualizations and screenshots
+- Improve feature selection and model explainability
+- Deploy the project online
+
+## Author
+
+Rick Lopez
