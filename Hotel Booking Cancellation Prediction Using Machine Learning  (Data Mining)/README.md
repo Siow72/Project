@@ -95,7 +95,7 @@ hotel-booking-cancellation-prediction/
 ├── application.py
 ├── application_bundle.pkl
 ├── Code.ipynb
-├── hotel_bookings.csv
+├── Dataset/ hotel_bookings.csv
 ├── README.md
 └── screenshots/
 ```
