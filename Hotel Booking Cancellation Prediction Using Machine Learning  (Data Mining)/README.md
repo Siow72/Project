@@ -45,28 +45,6 @@ The stronger models are further tuned using randomized search.
 - Imbalanced-learn
 - SciPy
 
-## Project Structure
-
-```text
-hotel-booking-cancellation-prediction/
-│
-├── notebooks/
-│   └── hotel_booking_cancellation_prediction.ipynb
-│
-├── data/
-│   └── hotel_bookings.csv              # Add dataset here
-│
-├── models/
-│   └── .gitkeep
-│
-├── screenshots/
-│   └── .gitkeep
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
 ## Dataset
 
 This project expects a dataset named:
