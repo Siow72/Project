@@ -102,17 +102,6 @@ hotel-booking-cancellation-prediction/
 
 ---
 
-## Dashboard Preview
-
-Add screenshots of your dashboard inside the `screenshots/` folder.
-
-Suggested screenshots:
-- KPI dashboard
-- Prediction result page
-- Business intelligence graphs
-
----
-
 ## How to Run
 
 ### Run the Streamlit application
