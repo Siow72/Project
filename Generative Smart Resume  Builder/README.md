@@ -12,5 +12,5 @@ A Python app that helps build resumes and recommend jobs using resume informatio
 
 ## How to run
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 python resume_builder.py
