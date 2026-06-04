@@ -1,1 +1,8 @@
 
+streamlit
+numpy
+pandas
+torch
+sentence-transformers
+reportlab
+ollama
