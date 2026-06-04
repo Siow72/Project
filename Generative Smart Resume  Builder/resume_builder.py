@@ -8,7 +8,10 @@ import streamlit as st
 from ui_components import section_title
 from pdf_generator import generate_resume_pdf_buffer
 
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
+PROMPT_PATH = BASE_DIR / "prompt.txt"
 # ----------------------
 # Helper Function
 # ----------------------
@@ -821,7 +824,7 @@ def render_resume_builder_page():
             ):
                 with st.spinner("Generating resume using Ollama..."):
                     ai_modified_sections = generate_resume_with_ollama(
-                        "prompt.txt",
+                        PROMPT_PATH,
                         llm_resume_input,
                     )
 
