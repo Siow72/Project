@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import torch
 from sentence_transformers import SentenceTransformer
-
+from pathlib import Path
 from models.model import TwoTowerVAE
 
 
@@ -14,9 +14,10 @@ from models.model import TwoTowerVAE
 # -----------------------------
 
 SBERT_NAME = "anass1209/resume-job-matcher-all-MiniLM-L6-v2"
-MODEL_VAE_PATH = "models/twotower_vae.pt"
-MODEL_D_PATH = "models/D.pt"
-JOBS_PATH = "models/jobs.pkl"
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_VAE_PATH = BASE_DIR / "models" / "twotower_vae.pt"
+JOBS_PATH = BASE_DIR / "models" / "jobs.pkl"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 MONTHS = [
